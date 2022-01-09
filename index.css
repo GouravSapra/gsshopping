@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+
+.containert {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.containerwrapper {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background: #22d3ee;
+}
+
+.containerwrapper img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+a:hover,
+button:hover {
+    cursor: pointer;
+}
+
+h3,
+a {
+    margin: 10px auto;
+    display: block;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.footer {
+    margin: 20px auto;
+    display: grid;
+    place-content: center;
+}
